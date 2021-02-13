@@ -1,0 +1,6 @@
+ni = int(input('Entre com um inteiro: '))
+print('1 x {} = {} \n2 x {} = {} \n3 x {} = {} \n'.format(ni, ni, ni, 2*ni, ni, 3*ni), end='')
+print('4 x {} = {} \n5 x {} = {} \n6 x {} = {} \n'.format(ni, ni*4, ni, ni*5, ni, ni*6), end='')
+print('7 x {} = {} \n8 x {} = {} \n9 x {} = {} \n'.format(ni, ni*7, ni, ni*8, ni, ni*9), end='')
+print('10 x {} = {}'.format(ni, ni*10))
+print('\n')
